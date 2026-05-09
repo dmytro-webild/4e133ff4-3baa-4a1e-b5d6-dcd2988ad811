@@ -73,15 +73,15 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg?_wi=1",
           imageAlt: "medical clinic interior",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg?_wi=1",
           imageAlt: "medical consultation room",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg?_wi=1",
           imageAlt: "clean operating room",
         },
       ]}
@@ -108,7 +108,7 @@ export default function LandingPage() {
           description: "Enhancing natural beauty with state-of-the-art techniques.",
           bentoComponent: "reveal-icon",
           icon: Sparkles,
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg?_wi=2",
           imageAlt: "bright hospital hallway",
         },
         {
@@ -116,7 +116,7 @@ export default function LandingPage() {
           description: "Contouring your body for a refined silhouette.",
           bentoComponent: "reveal-icon",
           icon: Zap,
-          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg?_wi=2",
           imageAlt: "bright hospital hallway",
         },
         {
@@ -124,7 +124,7 @@ export default function LandingPage() {
           description: "Customized nasal reshaping for balanced aesthetics.",
           bentoComponent: "reveal-icon",
           icon: User,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg?_wi=2",
           imageAlt: "bright hospital hallway",
         },
         {
@@ -132,7 +132,7 @@ export default function LandingPage() {
           description: "Advanced solutions for natural-looking hair restoration.",
           bentoComponent: "reveal-icon",
           icon: Award,
-          imageSrc: "http://img.b2bpic.net/free-photo/patient-nurse-sitting-reception-desk-talking-female-receptionist-about-disease-diagnosis-healthcare-support-diverse-people-working-health-center-registration-counter_482257-51641.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/patient-nurse-sitting-reception-desk-talking-female-receptionist-about-disease-diagnosis-healthcare-support-diverse-people-working-health-center-registration-counter_482257-51641.jpg?_wi=1",
           imageAlt: "bright hospital hallway",
         },
         {
@@ -140,7 +140,7 @@ export default function LandingPage() {
           description: "Expert reconstructive support after injury or burn.",
           bentoComponent: "reveal-icon",
           icon: Activity,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-doctor-holding-tablet_23-2149609914.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-doctor-holding-tablet_23-2149609914.jpg?_wi=1",
           imageAlt: "bright hospital hallway",
         },
       ]}
