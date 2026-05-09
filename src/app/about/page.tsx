@@ -79,7 +79,7 @@ export default function LandingPage() {
           description: "Focus on clarity and comfort.",
           bentoComponent: "reveal-icon",
           icon: MessageCircle,
-          imageSrc: "http://img.b2bpic.net/free-photo/patient-nurse-sitting-reception-desk-talking-female-receptionist-about-disease-diagnosis-healthcare-support-diverse-people-working-health-center-registration-counter_482257-51641.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/patient-nurse-sitting-reception-desk-talking-female-receptionist-about-disease-diagnosis-healthcare-support-diverse-people-working-health-center-registration-counter_482257-51641.jpg?_wi=2",
           imageAlt: "patient recovery room",
         },
         {
@@ -87,7 +87,7 @@ export default function LandingPage() {
           description: "Attention to every surgical detail.",
           bentoComponent: "reveal-icon",
           icon: Target,
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg?_wi=3",
           imageAlt: "patient recovery room",
         },
         {
@@ -95,7 +95,7 @@ export default function LandingPage() {
           description: "Aiming for harmonious aesthetics.",
           bentoComponent: "reveal-icon",
           icon: Sun,
-          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg?_wi=3",
           imageAlt: "patient recovery room",
         },
       ]}

@@ -74,7 +74,7 @@ export default function LandingPage() {
           description: "09962517162",
           bentoComponent: "reveal-icon",
           icon: Phone,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-doctor-holding-tablet_23-2149609914.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-doctor-holding-tablet_23-2149609914.jpg?_wi=2",
           imageAlt: "professional surgical suite",
         },
         {
@@ -82,7 +82,7 @@ export default function LandingPage() {
           description: "Schedule your clinic visit.",
           bentoComponent: "reveal-icon",
           icon: Calendar,
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg?_wi=4",
           imageAlt: "professional surgical suite",
         },
         {
@@ -90,7 +90,7 @@ export default function LandingPage() {
           description: "Navigate to Shenoy Nagar.",
           bentoComponent: "reveal-icon",
           icon: MapPin,
-          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg?_wi=4",
           imageAlt: "professional surgical suite",
         },
       ]}
