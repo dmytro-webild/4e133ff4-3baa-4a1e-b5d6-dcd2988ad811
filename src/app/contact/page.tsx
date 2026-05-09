@@ -8,7 +8,7 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import { Calendar, MapPin, Phone } from "lucide-react";
 
-export default function LandingPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-bubble"
@@ -26,26 +26,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "Reviews",
-          id: "/reviews",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Services", id: "/services" },
+        { name: "Reviews", id: "/reviews" },
+        { name: "Contact", id: "/contact" }
       ]}
       brandName="Selva Plastic Surgery Clinic"
     />
@@ -54,9 +39,7 @@ export default function LandingPage() {
   <div id="contact-map" data-section="contact-map">
       <ContactCenter
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Get in touch"
       title="Visit Us in Shenoy Nagar"
       description="Flat No. 1, Srijees Apartment, 8th Cross St W, B Block, Shenoy Nagar, Chennai, Tamil Nadu 600030. Call: 09962517162"
@@ -69,30 +52,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        {
-          title: "Call Now",
-          description: "09962517162",
-          bentoComponent: "reveal-icon",
-          icon: Phone,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-doctor-holding-tablet_23-2149609914.jpg?_wi=2",
-          imageAlt: "professional surgical suite",
-        },
-        {
-          title: "Book Appointment",
-          description: "Schedule your clinic visit.",
-          bentoComponent: "reveal-icon",
-          icon: Calendar,
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg?_wi=4",
-          imageAlt: "professional surgical suite",
-        },
-        {
-          title: "Get Directions",
-          description: "Navigate to Shenoy Nagar.",
-          bentoComponent: "reveal-icon",
-          icon: MapPin,
-          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg?_wi=4",
-          imageAlt: "professional surgical suite",
-        },
+        { title: "Call Now", description: "09962517162", bentoComponent: "reveal-icon", icon: Phone },
+        { title: "Book Appointment", description: "Schedule your clinic visit.", bentoComponent: "reveal-icon", icon: Calendar },
+        { title: "Get Directions", description: "Navigate to Shenoy Nagar.", bentoComponent: "reveal-icon", icon: MapPin }
       ]}
       title="Direct Contact"
       description="Reach out through your preferred method."
@@ -102,40 +64,8 @@ export default function LandingPage() {
   <div id="footer-main" data-section="footer-main">
       <FooterBase
       columns={[
-        {
-          title: "Navigation",
-          items: [
-            {
-              label: "Home",
-              href: "/",
-            },
-            {
-              label: "About",
-              href: "/about",
-            },
-            {
-              label: "Services",
-              href: "/services",
-            },
-            {
-              label: "Contact",
-              href: "/contact",
-            },
-          ],
-        },
-        {
-          title: "Legal",
-          items: [
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-            {
-              label: "Terms of Use",
-              href: "#",
-            },
-          ],
-        },
+        { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "About", href: "/about" }, { label: "Services", href: "/services" }, { label: "Contact", href: "/contact" }] },
+        { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Use", href: "#" }] }
       ]}
       logoText="Selva Plastic Surgery Clinic"
     />

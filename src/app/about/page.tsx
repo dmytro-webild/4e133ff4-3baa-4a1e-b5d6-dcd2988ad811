@@ -8,7 +8,7 @@ import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSp
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import { MessageCircle, Sun, Target } from "lucide-react";
 
-export default function LandingPage() {
+export default function AboutPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-bubble"
@@ -26,26 +26,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "Reviews",
-          id: "/reviews",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Services", id: "/services" },
+        { name: "Reviews", id: "/reviews" },
+        { name: "Contact", id: "/contact" }
       ]}
       brandName="Selva Plastic Surgery Clinic"
     />
@@ -55,15 +40,8 @@ export default function LandingPage() {
       <InlineImageSplitTextAbout
       useInvertedBackground={false}
       heading={[
-        {
-          type: "text",
-          content: "Meet Dr. Selva Seetharaman",
-        },
-        {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/nurse-preparing-consult_23-2149309930.jpg",
-          alt: "professional plastic surgeon",
-        },
+        { type: "text", content: "Meet Dr. Selva Seetharaman" },
+        { type: "image", src: "http://img.b2bpic.net/free-photo/nurse-preparing-consult_23-2149309930.jpg", alt: "professional plastic surgeon" }
       ]}
     />
   </div>
@@ -74,30 +52,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        {
-          title: "Patient-friendly",
-          description: "Focus on clarity and comfort.",
-          bentoComponent: "reveal-icon",
-          icon: MessageCircle,
-          imageSrc: "http://img.b2bpic.net/free-photo/patient-nurse-sitting-reception-desk-talking-female-receptionist-about-disease-diagnosis-healthcare-support-diverse-people-working-health-center-registration-counter_482257-51641.jpg?_wi=2",
-          imageAlt: "patient recovery room",
-        },
-        {
-          title: "Precision",
-          description: "Attention to every surgical detail.",
-          bentoComponent: "reveal-icon",
-          icon: Target,
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-stomatology-orthodontist-hospital-cabinet-with-nobody-it_482257-10435.jpg?_wi=3",
-          imageAlt: "patient recovery room",
-        },
-        {
-          title: "Natural Results",
-          description: "Aiming for harmonious aesthetics.",
-          bentoComponent: "reveal-icon",
-          icon: Sun,
-          imageSrc: "http://img.b2bpic.net/free-photo/border-from-potted-plant-medical-supplies_23-2147796510.jpg?_wi=3",
-          imageAlt: "patient recovery room",
-        },
+        { title: "Patient-friendly", description: "Focus on clarity and comfort.", bentoComponent: "reveal-icon", icon: MessageCircle },
+        { title: "Precision", description: "Attention to every surgical detail.", bentoComponent: "reveal-icon", icon: Target },
+        { title: "Natural Results", description: "Aiming for harmonious aesthetics.", bentoComponent: "reveal-icon", icon: Sun }
       ]}
       title="Surgical Philosophy"
       description="Dr. Selva is a highly experienced surgeon known for precision, patient-centric care, and ethical outcomes."
@@ -107,40 +64,8 @@ export default function LandingPage() {
   <div id="footer-main" data-section="footer-main">
       <FooterBase
       columns={[
-        {
-          title: "Navigation",
-          items: [
-            {
-              label: "Home",
-              href: "/",
-            },
-            {
-              label: "About",
-              href: "/about",
-            },
-            {
-              label: "Services",
-              href: "/services",
-            },
-            {
-              label: "Contact",
-              href: "/contact",
-            },
-          ],
-        },
-        {
-          title: "Legal",
-          items: [
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-            {
-              label: "Terms of Use",
-              href: "#",
-            },
-          ],
-        },
+        { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "About", href: "/about" }, { label: "Services", href: "/services" }, { label: "Contact", href: "/contact" }] },
+        { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Use", href: "#" }] }
       ]}
       logoText="Selva Plastic Surgery Clinic"
     />
